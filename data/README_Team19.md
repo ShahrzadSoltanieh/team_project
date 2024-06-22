@@ -83,7 +83,7 @@ This workbook contains the design, implementation, and test of regression using 
 
 
 ### How can we explore the relationships between different variables?
-* Use visualization techniques such as heat maps, scatter plots, box plots, and histograms.
+Use visualization techniques such as heat maps, scatter plots, box plots, and histograms.
 
 ### Are there any patterns or trends in the data that we can identify?
 Yes, there are trends between various sets of variables such as vehicle age and damage, ages and genders of customers interested in vehicle insurance, impact of prior vehicle damage on customer interest in purchasing vehicle insurance, etc. Refer to Preliminary_Study.ipynb for further details and analysis.
