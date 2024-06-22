@@ -1,4 +1,4 @@
-# Team 19 - Project 1 README
+# DSI Project 1 - Team 19
 
 ## Dataset Exploration:
 ### How will you select your dataset?
@@ -12,6 +12,12 @@ We will have daily meetings to discuss progress and make decisions, and use Slac
 Will policy holders who have health insurance be interested in purchasing additional vehicle insurance?
 ### What tasks need to be completed to get to your final output?
 After selecting the dataset, we will use heat maps of regression variables to identify correlations and and visualize key variables and attributes within the dataset. We will assign numerical values to binary variables and further explore the dataset relationships using visualization methods and modeling (scatter plots, histograms, box plots, etc.). Using this information, we will then design, implement, and test regression.
+
+## Data Workbooks: 
+### 1. Preliminary_Study.ipynb
+This workbook explores the relationships between key data attributes and variables within the selected dataset. 
+### 2. Regression Analysis [TO UPDATE NAME ONCE FINALIZED]
+This workbook contains the design, implementation, and test of regression using the selected dataset.
 
 
 ## Rules of Engagement - Team 19
@@ -57,10 +63,10 @@ After selecting the dataset, we will use heat maps of regression variables to id
 
 ## Questions Discussed During Dataset Review
 ### What are the key variables and attributes in your dataset?
-##### Raw Dataset: Learning from Imbalanced Insurance Data
-* Number of columns: 12
+#### Raw Dataset: Learning from Imbalanced Insurance Data
 
-| Variable/Data Attribute  | Description | Data Type  |
+
+| Data Attribute/ Variable | Description | Data Type  |
 | ------------- | ------------- | ------------- |
 | ID  | Unique identifier for each record  | Numerical  |
 | Gender | Gender of the customer | Categorical (Male, Female). Binary values were assigned for analysis: 'Male' = 1 and 'Female' = 0  |
@@ -80,7 +86,7 @@ After selecting the dataset, we will use heat maps of regression variables to id
 * Use visualization techniques such as heat maps, scatter plots, box plots, and histograms.
 
 ### Are there any patterns or trends in the data that we can identify?
-Yes, there are trends between various sets of variables such as Vehicle Age and Damage, whereby most vehicles with 1-2 years of age have been damaged, while vehicles with less than 1 year of age have not been damaged. This suggests that the age of the vehicle may be related to the likelihood of damage. Additionally, there are patterns and trends between _____. Refer to [INSERT PRELIM ANALYSIS FILE NAME] for further details. [TO UPDATE]
+Yes, there are trends between various sets of variables such as vehicle age and damage, ages and genders of customers interested in vehicle insurance, impact of prior vehicle damage on customer interest in purchasing vehicle insurance, etc. Refer to Preliminary_Study.ipynb for further details and analysis.
 
 ### Who is the intended audience for our data analysis?
 The intended audience for this data analysis is the insurance company that provided the data. The company can use the analysis to understand the characteristics of customers who are interested in vehicle insurance and to identify potential customers who are likely to purchase insurance. The analysis can help the company develop targeted marketing strategies and improve customer acquisition and retention.
