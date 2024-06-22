@@ -2,7 +2,7 @@
 
 # Dataset Exploration:
 ## How will you select your dataset?
-* We explored different open-source datasets from different platforms. We chose one related to finance which focuses on vehicular insurance data. We evaluated the dataset's content for usability and reviewed the dataset ranking on Kaggle to ensure it is robust and suitable for our analysis needs.
+We explored different open-source datasets from different platforms. We chose one related to finance which focuses on vehicular insurance data. We evaluated the dataset's content for usability and reviewed the dataset ranking on Kaggle to ensure it is robust and suitable for our analysis needs.
 ## How will you make sure all team members can contribute to the project?
 Tasks will be assigned based on each member’s strengths and interests. We will use GitHub for version control and collaboration. We will use Slack for communication and  Google Drive for sharing and organizing documentation to ensure everyone is actively contributing and informed about the project’s progress.
 ## How will you make decisions?
@@ -48,7 +48,7 @@ After selecting the dataset, we will use heat maps of regression variables to id
 * Access: Ensure all members have access to necessary tools and resources.
 
 ## Clear Tracking of Progress
-Version Control and Documentation
+### Version Control and Documentation
 * Repository: Use Git branching model (feature branches), create pull requests to team-project-1 for code review.
 * Documentation: Update Google Sheets project plan for decisions and progress.
 
@@ -97,7 +97,6 @@ The intended audience for this data analysis is the insurance company that provi
 Our analysis provides value to shareholders of the insurance company by answering the question "What are the characteristics of customers who are interested in vehicle insurance, and how can the insurance company identify potential customers who are likely to purchase insurance?". The analysis aims to investigate the relationships between various customer attributes.
 
 ## Are there any specific libraries or frameworks that are well-suited to our project requirements?
-Yes, there is. Here are some examples that we can use:
 * Numpy - data manipulation and cleaning.
 * Pandas - useful for numerical operations
 * Matplotlib - for creating static and visualizations in Python.
