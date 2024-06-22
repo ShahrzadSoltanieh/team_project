@@ -1,4 +1,4 @@
-# Team 19 - Project 
+# Team 19 - Project 1 README
 
 ## Dataset Exploration:
 ### How will you select your dataset?
