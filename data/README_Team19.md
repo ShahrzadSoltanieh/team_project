@@ -57,44 +57,23 @@ After selecting the dataset, we will use heat maps of regression variables to id
 
 ## Questions Discussed During Dataset Review
 ### What are the key variables and attributes in your dataset?
-Raw Dataset: Learning from Imbalanced Insurance Data
+##### Raw Dataset: Learning from Imbalanced Insurance Data
 * Number of columns: 12
 
-ID: Unique identifier for each record.
-* Type: Numerical
-
-Gender: Unique identifier for each record.
-* Type: Categorical (Male, Female) →  We changed it to 'Male' = 1 and 'Female' = 0
-
-Age: Age of the customer.
-* Type: Numerical
-
-Driving_License: Indicates whether the customer has a driving license.
-* Type: Categorical (0 for No, 1 for Yes) 
-
-Region_Code: Code representing the region of the customer.
-* Type: Numerical
-
-Previously_Insured: Indicates whether the customer previously had insurance.
-* Type: Categorical (0 for No, 1 for Yes)
-
-Vehicle_Age: Age of the customer’s vehicle
-* Type: Categorical (< 1 Year, 1-2 Year, > 2 Years) →  We changed it to 1,2,3 respectively
-
-Vehicle_Damage: Indicates whether the customer’s vehicle has been damaged in the past.
-* Type: Categorical ( No, Yes) →  We changed it to No= 0 and Yes= 1
-
-Annual_Premium: The amount of premium the customer needs to pay annually.
-* Type: Numerical
-
-Policy_Sales_Channel: Code representing the channel through which the policy was sold.
-* Type: Categorical
-
-Vintage: Number of days the customer has been associated with the insurance company.
-* Type: Numerical
-
-Response: The target variable indicating whether the customer responded positively to the insurance offer
-* Type: Categorical (0 for No, 1 for Yes)
+| Variable/Data Attribute  | Description | Data Type  |
+| ------------- | ------------- | ------------- |
+| ID  | Unique identifier for each record  | Numerical  |
+| Gender | Gender of the customer | Categorical (Male, Female). Binary values were assigned for analysis: 'Male' = 1 and 'Female' = 0  |
+| Age  | Age of the customer  | Numerical  |
+| Driving_License  |Indicates whether the customer has a driving license  | Categorical (0 for No, 1 for Yes)  |
+| Region_Code  | Code representing the region of the customer  | Numerical  |
+| Previously_Insured  | Indicates whether the customer previously had insurance  | Categorical (0 for No, 1 for Yes)  |
+| Vehicle_Age  | Age of the customer’s vehicle | Categorical (< 1 Year, 1-2 Year, > 2 Years). Binary values were assigned for analysis: 1,2,3 respectively |
+| Vehicle_Damage  | Indicates whether the customer’s vehicle has been damaged in the past  | Categorical ( No, Yes). Binary values were assigned for analysis: No= 0 and Yes= 1 |
+| Annual_Premium  | The amount of premium the customer needs to pay annually  | Numerical  |
+| Policy_Sales_Channel  | Code representing the channel through which the policy was sold  | Categorical  |
+| Vintage  | Number of days the customer has been associated with the insurance company  | Numerical  |
+| Response  | The target variable indicating whether the customer responded positively to the insurance offer  | Categorical (0 for No, 1 for Yes)  |
 
 
 ### How can we explore the relationships between different variables?
