@@ -8,9 +8,9 @@ Tasks will be assigned based on each member’s strengths and interests. We will
 ### How will you make decisions?
 We will have daily meetings to discuss progress and make decisions, and use Slack for day-to-day communications. We will ensure that everyone agrees on a decision before moving forward. In case of any disagreements, we resolve them through voting to ensure agreement.
 
-## What is the question you're trying to answer through your data analysis?
+### What is the question you're trying to answer through your data analysis?
 Will policy holders who have health insurance be interested in purchasing additional vehicle insurance?
-## What tasks need to be completed to get to your final output?
+### What tasks need to be completed to get to your final output?
 After selecting the dataset, we will use heat maps of regression variables to identify correlations and and visualize key variables and attributes within the dataset. We will assign numerical values to binary variables and further explore the dataset relationships using visualization methods and modeling (scatter plots, histograms, box plots, etc.). Using this information, we will then design, implement, and test regression.
 
 
@@ -28,7 +28,7 @@ After selecting the dataset, we will use heat maps of regression variables to id
 * Response Time: Respond to messages within 24 hours. Communicate to the team if you will be late or unavailable. 
 * Decision Making: Consensus for major decisions; additional discussions held as a team for tie-breakers.
 
-### Work Allocation
+#### Work Allocation
 * Tasks: Assign tasks based on strengths and interests, aligning with DSI team project requirements. 
 * Deadlines: Set realistic deadlines; update if necessary. Communicate to the team ahead of the deadline if you experience a delay or issue. 
 * Accountability: Raise issues promptly in the Slack group chat.
@@ -59,30 +59,43 @@ After selecting the dataset, we will use heat maps of regression variables to id
 ### What are the key variables and attributes in your dataset?
 Raw Dataset: Learning from Imbalanced Insurance Data
 * Number of columns: 12
+
 ID: Unique identifier for each record.
 * Type: Numerical
+
 Gender: Unique identifier for each record.
 * Type: Categorical (Male, Female) →  We changed it to 'Male' = 1 and 'Female' = 0
+
 Age: Age of the customer.
 * Type: Numerical
+
 Driving_License: Indicates whether the customer has a driving license.
 * Type: Categorical (0 for No, 1 for Yes) 
+
 Region_Code: Code representing the region of the customer.
 * Type: Numerical
+
 Previously_Insured: Indicates whether the customer previously had insurance.
 * Type: Categorical (0 for No, 1 for Yes)
+
 Vehicle_Age: Age of the customer’s vehicle
 * Type: Categorical (< 1 Year, 1-2 Year, > 2 Years) →  We changed it to 1,2,3 respectively
+
 Vehicle_Damage: Indicates whether the customer’s vehicle has been damaged in the past.
 * Type: Categorical ( No, Yes) →  We changed it to No= 0 and Yes= 1
+
 Annual_Premium: The amount of premium the customer needs to pay annually.
 * Type: Numerical
+
 Policy_Sales_Channel: Code representing the channel through which the policy was sold.
 * Type: Categorical
+
 Vintage: Number of days the customer has been associated with the insurance company.
 * Type: Numerical
+
 Response: The target variable indicating whether the customer responded positively to the insurance offer
 * Type: Categorical (0 for No, 1 for Yes)
+
 
 ### How can we explore the relationships between different variables?
 * Use visualization techniques such as heat maps, scatter plots, box plots, and histograms.
