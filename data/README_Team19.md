@@ -68,18 +68,18 @@ This workbook contains the design, implementation, and test of regression using 
 
 | Data Attribute/ Variable | Description | Data Type  |
 | ------------- | ------------- | ------------- |
-| ID  | Unique identifier for each record  | Numerical  |
-| Gender | Gender of the customer | Categorical (Male, Female). Binary values were assigned for analysis: 'Male' = 1 and 'Female' = 0  |
-| Age  | Age of the customer  | Numerical  |
-| Driving_License  |Indicates whether the customer has a driving license  | Categorical (0 for No, 1 for Yes)  |
-| Region_Code  | Code representing the region of the customer  | Numerical  |
-| Previously_Insured  | Indicates whether the customer previously had insurance  | Categorical (0 for No, 1 for Yes)  |
-| Vehicle_Age  | Age of the customer’s vehicle | Categorical (< 1 Year, 1-2 Year, > 2 Years). Binary values were assigned for analysis: 1,2,3 respectively |
-| Vehicle_Damage  | Indicates whether the customer’s vehicle has been damaged in the past  | Categorical ( No, Yes). Binary values were assigned for analysis: No= 0 and Yes= 1 |
-| Annual_Premium  | The amount of premium the customer needs to pay annually  | Numerical  |
-| Policy_Sales_Channel  | Code representing the channel through which the policy was sold  | Categorical  |
-| Vintage  | Number of days the customer has been associated with the insurance company  | Numerical  |
-| Response  | The target variable indicating whether the customer responded positively to the insurance offer  | Categorical (0 for No, 1 for Yes)  |
+| ID  | Unique identifier for each record (Numerical) | int  |
+| Gender | Gender of the customer (Categorical: (Male, Female). Binary values were assigned for analysis: 'Male' = 1 and 'Female' = 0) |  object |
+| Age  | Age of the customer (Numerical) | int  |
+| Driving_License  |Indicates whether the customer has a driving license (Categorical (0 for No, 1 for Yes)) | int |
+| Region_Code  | Code representing the region of the customer (Numerical) | float  |
+| Previously_Insured  | Indicates whether the customer previously had insurance (Categorical (0 for No, 1 for Yes)) | int  |
+| Vehicle_Age  | Age of the customer’s vehicle (Categorical (< 1 Year, 1-2 Year, > 2 Years). Binary values were assigned for analysis: 1,2,3 respectively) | object |
+| Vehicle_Damage  | Indicates whether the customer’s vehicle has been damaged in the past (Categorical ( No, Yes). Binary values were assigned for analysis: No= 0 and Yes= 1) | object |
+| Annual_Premium  | The amount of premium the customer needs to pay annually (Numercial) | float |
+| Policy_Sales_Channel  | Code representing the channel through which the policy was sold (Categorical) | float  |
+| Vintage  | Number of days the customer has been associated with the insurance company (Numerical) | int  |
+| Response  | The target variable indicating whether the customer responded positively to the insurance offer (Categorical (0 for No, 1 for Yes)) | int  |
 
 
 ### How can we explore the relationships between different variables?
@@ -95,11 +95,13 @@ The intended audience for this data analysis is the insurance company that provi
 Our analysis provides value to shareholders of the insurance company by answering the question "What are the characteristics of customers who are interested in vehicle insurance, and how can the insurance company identify potential customers who are likely to purchase insurance?". The analysis aims to investigate the relationships between various customer attributes.
 
 ### Are there any specific libraries or frameworks that are well-suited to our project requirements?
-* Numpy - data manipulation and cleaning.
-* Pandas - useful for numerical operations
-* Matplotlib - for creating static and visualizations in Python.
-* Seaborn -  it provides a high-level interface for drawing attractive and informative statistical graphics
-* SciPy - Useful for statistical analysis
+* Numpy - data manipulation and cleaning
+* Pandas - for numerical operations
+* Matplotlib - for creating static and visualizations in Python
+* Seaborn -  provides a high-level interface for drawing attractive and informative statistical graphics
+* SciPy - for statistical analysis
+* Statsmodels - for conducting statistical tests and fitting statistical models
+* Sklearn - for ML tasks, classification, regression, and clustering
 
 
 ## Individual Learnings and Experiences Videos:
