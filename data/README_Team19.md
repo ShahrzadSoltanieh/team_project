@@ -16,7 +16,7 @@ After selecting the dataset, we will use heat maps of regression variables to id
 ## Data Workbooks: 
 ### 1. Preliminary_Study.ipynb
 This workbook explores the relationships between key data attributes and variables within the selected dataset. 
-### 2. Regression Analysis [TO UPDATE NAME ONCE FINALIZED]
+### 2. Learning from Imbalanced Insurance Data_Analysis with Regression.ipynb
 This workbook contains the design, implementation, and test of regression using the selected dataset.
 
 
