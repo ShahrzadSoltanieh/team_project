@@ -106,6 +106,6 @@ Our analysis provides value to shareholders of the insurance company by answerin
 
 ## Individual Learnings and Experiences Videos:
 * Balkan Dogu: [INSERT VIDEO LINK]
-* Yu (Cecily) Li: [INSERT VIDEO LINK]
+* Yu (Cecily) Li: https://youtu.be/aa8R4SE09_o
 * Luiz Oliveira: https://www.youtube.com/watch?v=qS3hN-iVuR4
 * Shahrzad Soltanieh: [INSERT VIDEO LINK]
