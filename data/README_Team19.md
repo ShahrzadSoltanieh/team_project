@@ -22,7 +22,7 @@ This workbook contains the design, implementation, and test of regression using 
 
 ## Rules of Engagement - Team 19
 ### Team Members
-* Balkan Dogu
+* Belchin(Balkan) Naumov
 * Yu (Cecily) Li
 * Luiz Oliveira
 * Shahrzad Soltanieh
@@ -105,7 +105,7 @@ Our analysis provides value to shareholders of the insurance company by answerin
 
 
 ## Individual Learnings and Experiences Videos:
-* Balkan Dogu: [INSERT VIDEO LINK]
+* Belchin(Balkan) Naumov: https://www.youtube.com/watch?v=L17xnrZrr9k
 * Yu (Cecily) Li: https://youtu.be/aa8R4SE09_o
 * Luiz Oliveira: https://www.youtube.com/watch?v=qS3hN-iVuR4
 * Shahrzad Soltanieh: https://youtu.be/8n2krR-nw0Y
